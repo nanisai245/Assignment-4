@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <div class="outer-card">
+        <div class="inner-card">
+            <p class="clock"></p>
+            <p class="date"></p>
+        </div>
+
+        <div class="card-container">
+            <div class="slider">
+                <div class="slide" id="lastClone">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/19/15/46/japanese-cherry-blossom-1839982_640.jpg">
+                </div>
+                <div class="slide">
+                    <img
+                        src="https://i0.wp.com/picjumbo.com/wp-content/uploads/first-snow-in-a-beautiful-mountain-village-free-image.jpeg?w=600&quality=80">
+                </div>
+                <div class="slide">
+                    <img
+                        src="https://images.theconversation.com/files/615211/original/file-20240822-16-9nd1la.jpg?ixlib=rb-4.1.0&rect=0%2C0%2C7089%2C4729&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip">
+                </div>
+                <div class="slide">
+                    <img
+                        src="https://static.vecteezy.com/system/resources/previews/029/771/613/non_2x/epicgraphy-shot-of-rainy-season-background-enjoying-nature-rainfall-and-happy-life-concept-generative-ai-free-photo.jpeg">
+                </div>
+                <div class="slide">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/19/15/46/japanese-cherry-blossom-1839982_640.jpg">
+                </div>
+                <div class="slide" id="firstClone">
+                    <img
+                        src="https://i0.wp.com/picjumbo.com/wp-content/uploads/first-snow-in-a-beautiful-mountain-village-free-image.jpeg?w=600&quality=80">
+                </div>
+            </div>
+            <button class='bx bx-chevron-left btn-left'></button>
+            <button class='bx bx-chevron-right btn-right'></button>
+        </div>
+        <p class="seasons"></p>
+    </div>
+    <div class="overlay"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
